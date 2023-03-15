@@ -5,5 +5,8 @@ let meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'ag
 
 document.write(`<ul>`)
 
-for (i=0; i < meses.length(); i++)
-d
+for (let i=0; i < meses.length; i++){
+document.write(`<li>${meses[i]}</li>`);
+}
+
+document.write(`</ul>`);
